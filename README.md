@@ -3,6 +3,8 @@
 - create vite project
 - integrated tailwind for vite configs
 - connected with git
+- header
+- login, signup
 
 # Features
 - LogIN/Signup Page
@@ -11,6 +13,7 @@
    - profiles
 - browse page  (only after authentication)
     - header
+    - login form
     - main movie 
        - trailer in bg
        - title and description
