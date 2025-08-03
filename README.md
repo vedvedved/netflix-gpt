@@ -14,7 +14,12 @@
 - created a redux store with userSlice
 - implemented signout
 - update profile api call
-<!-- - fetch from TMDB -->
+- bug fixes : name and photo url updated, login / browse routing cleared
+- unsubscribed to auth api in useEffect
+- created constants file
+- registered from TMDB, create app
+- get access token
+- get data from TMDB "Now playing movies list" from documentation.
 
 # Features
 - LogIN/Signup Page
@@ -29,6 +34,16 @@
        - title and description
     - movie suggestions
        - movieList * N
+
+        /*  
+      - main container
+        - vdeo bg
+        - vdeo title
+
+      - secondary container
+        - movielist * n
+        - cards * n 
+      */
 - gpt
     - search bar
     - movie suggestions
