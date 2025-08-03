@@ -20,6 +20,20 @@
 - registered from TMDB, create app
 - get access token
 - get data from TMDB "Now playing movies list" from documentation.
+- custom hook for now playing movies
+- create movieSlice
+- update store with movies data
+- planning for main and secondary container
+- fetch data for trailer movie
+- update store with tailer video data
+- embedded the yt video and autoplay + mute
+- tailwind classes to make main container look awesome
+- built secondary container
+- built movie list
+- built movie card
+- TMDB image CDN URL
+- Made browse page tailwind css 
+- usePoplar custom hook
 
 # Features
 - LogIN/Signup Page
@@ -49,6 +63,4 @@
     - movie suggestions
 
 
-    //firebase
-    3. Install Firebase CLI
-    npm install -g firebase-tools
+   
