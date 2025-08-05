@@ -23,21 +23,22 @@ const GptSearchBar = () => {
 
         // const gptQuery = ""
 
-        //  const gptResults =  await openai.responses.create({
-        // model: 'gpt-3.5-turbo',
-        // instructions: 'Act as a movie recommedation system and suggest some movies for user input. Give me only top 5 movie names and tehy should be comma separated like the example result given ahead. Example Result : Gadar, Sholay, Don, Gunday, Koi Mil Gaya',
-        // input: searchInput.current.value,
-        // });
-        // console.log(gptResults.output_text);
+         const gptResults =  await openai.responses.create({
+        model: 'gpt-3.5-turbo',
+        instructions: 'Act as a movie recommedation system and suggest some movies for user input. Give me only top 5 movie names and tehy should be comma separated like the example result given ahead. Example Result : Gadar, Sholay, Don, Gunday, Koi Mil Gaya',
+        input: searchInput.current.value,
+        });
+        console.log(gptResults.output_text);
 
         //TO-DO
         //error handling
         // if (!gptResults.output_text) {error handling}
 
-        // gptResults.output_text[0]?.message?.content = "Gadar, Sholay, Don, Gunday, Koi Mil Gaya"
+        const gptMovies = gptResults.output_text.split(",");
+        //  = "Gadar, Sholay, Don, Gunday, Koi Mil Gaya"
 
-        const workAround = "Gadar, Sholay, Don, Gunday, Koi Mil Gaya"
-        const gptMovies = workAround.split(",");
+        // const workAround = "Gadar, Sholay, Don, Gunday, Koi Mil Gaya"
+        // const gptMovies = workAround.split(",");
 
         // ["Gadar", "Sholay", "Don", "Gunday", "Koi Mil Gaya"]
 
