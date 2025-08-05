@@ -37,7 +37,15 @@
 - gpt search page
 - gpt search bar
 - multi lang feature
-- integrate gpt apis (get Open Ai key)
+- gpt search open ai api key
+- gpt search api call
+- fetched gpt movie suggestions from TMDB
+- created gpt slice and added data
+- reused movie list component to show movie suggestion
+- memoization
+- adding .env file to vite
+- adding .env file to git ignore
+- made site responsive
 
 
 # Features
@@ -68,4 +76,4 @@
     - movie suggestions
 
 
-   
+   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
