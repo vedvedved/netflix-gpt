@@ -34,6 +34,11 @@
 - TMDB image CDN URL
 - Made browse page tailwind css 
 - usePoplar custom hook
+- gpt search page
+- gpt search bar
+- multi lang feature
+- integrate gpt apis (get Open Ai key)
+
 
 # Features
 - LogIN/Signup Page
